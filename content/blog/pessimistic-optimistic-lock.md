@@ -6,6 +6,8 @@ tags: database locks pessimistic-lock optimistic-lock concurrency transaction
 **Why do we need locking in database in the first place ?**\
 Ans: To manage write operations in DB in case of concurrent transaction.
 
+
+
 ![](/assets/screenshot-2020-09-19-at-12.47.50-am.png)
 
 Marked the **quantity -1** in the above diagram ?\
@@ -52,10 +54,6 @@ Consider another case of a ecommerce purchase with the following diagrams.
 ***Optimistic Locking***
 
 ![](/assets/screenshot-2020-09-19-at-12.49.24-am.png)
-
-
-
-
 
 *If you have come till here. Thank you for reading completely.*
 
