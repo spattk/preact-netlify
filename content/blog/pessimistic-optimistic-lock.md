@@ -3,20 +3,20 @@ title: Pessimistic & Optimistic Lock
 date: 2020-09-18T19:20:00.000Z
 tags: database locks pessimistic-lock optimistic-lock concurrency transaction
 ---
-**Why do we need locking in database in the first place ?**\
+**Why do we need locking in database in the first place ?**
+
 Ans: To manage write operations in DB in case of concurrent transaction.
-
-
 
 ![](/assets/screenshot-2020-09-19-at-12.47.50-am.png)
 
-Marked the **quantity -1** in the above diagram ?\
-The basic problem that would be caused if we don't have proper locking mechanism in the DB.\
-\
-Umm.. What is the solution then ?\
-There comes the title of the article. Implementing either one of pessimistic lock or optimistic lock.\
-\
-Again what are these locks.\
+Marked the **quantity -1** in the above diagram ?
+
+The basic problem that would be caused if we don't have proper locking mechanism in the DB.
+*Umm.. What is the solution then ?*
+
+There comes the title of the article. Implementing either one of pessimistic lock or optimistic lock.
+
+Again what are these locks.
 *Don't worry. Things gets better with time. Please continue reading...*
 
 ### **Definition**
